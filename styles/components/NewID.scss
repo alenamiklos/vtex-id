@@ -1,0 +1,193 @@
+.NewID {
+  background: #003B5E;
+  width: 100%;
+  height: 100%;
+  padding-top:40px;
+  padding-bottom:40px;
+  padding-right:15px;
+  padding-left:15px;
+
+  font-family: $display-font;
+
+  &__title {
+
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+  }
+
+  &__email{
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #c8ced6;
+    font-style: italic;
+
+  }
+
+  &__formTitle{
+    font-size: 16px;
+    color: white;
+    padding-top: 10px;
+  }
+
+  &__name {
+    padding-top: 5px;
+  }
+
+  &__input-group-addon {
+    color:white;
+    background-color:#406C86;
+    border:#406C86;
+  }
+
+  &__form-control {
+    background-color: #406C86;
+    border:#406C86;
+    color: white;
+  }
+
+  &__phone {
+    padding-top: 5px;
+  }
+
+  img{
+    width: 22px;
+    height: 22px;
+  }
+
+  &__office {
+    .selectIcon{
+      float: right;
+      margin-top: 9px;
+
+    }
+    padding-top: 5px;
+  }
+
+  &__btn-group, &__btn {
+    width: 100%;
+  }
+
+  &__dropdown-menu {
+    width: 100%;
+    background-color: #204d74;
+  }
+
+    &__dropdown-menu >li>a{
+      background-color: #204d74;
+      color:white;
+  }
+
+    &__divider{
+      background-color:#337ab7;
+    }
+  /*
+
+  &__btn-default{
+    color:white;
+    background-color:#2487B8;
+    border-color:#2487B8;
+  }
+
+  &__habilities {
+
+  }
+  .btn-default:active:hover{
+    color:white;
+  } */
+
+  .caret{
+    margin-left: 10px
+  }
+
+  &__text{
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left;
+  }
+
+&__responsibilities{
+  color: white;
+
+}
+
+&__checkboxOptionsTitle{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+&__checkboxOptions {
+      /*** basic styles ***/
+
+    padding-top: 20px;
+    align-items: center;
+    body { margin: 20px; }
+    h1 { font-size: 14px; }
+
+    label {
+
+      font-weight: lighter;
+      font-size: 14px;
+      padding-left: 20px;
+      padding-top: 10px;
+    }
+
+    div {
+      width: 175px;
+      margin-left: -15
+    }
+
+    /*** custom checkboxes ***/
+
+    input[type=checkbox] { display:none; } /* to hide the checkbox itself */
+    input[type=checkbox] + label:before {
+      font-family: FontAwesome;
+      display: inline-block;
+    }
+
+    input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
+    input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+
+    input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
+    input[type=checkbox]:checked + label:before { letter-spacing: 5px; color: #4bd268;} /* allow space for check mark */
+}
+
+&__ConfirmButton {
+
+  padding-top: 20px;
+
+  .btn {
+    width: 100%;
+    font-size: 18px;
+    font-family: $display-font;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+  }
+}
+
+  &__exitLink {
+    text-align: center;
+    padding-top: 20px;
+
+    a{
+      font-size: 16px;
+      color: white;
+      font-weight: lighter;
+      text-decoration: underline;
+
+    }
+
+
+    a:active {
+      color: #89c4f4;
+    }
+
+  }
+
+}
