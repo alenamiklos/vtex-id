@@ -1,0 +1,315 @@
+/* Colors */
+/* Typography */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,300italic,700);
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+@media only screen and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  select, textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"] {
+    font-size: 16px; }
+
+  input {
+    -webkit-appearance: none;
+    border-radius: 0; } }
+.NewID {
+  background: #003B5E;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  /*
+
+  &__btn-default{
+    color:white;
+    background-color:#2487B8;
+    border-color:#2487B8;
+  }
+
+  &__habilities {
+
+  }
+  .btn-default:active:hover{
+    color:white;
+  } */ }
+  .NewID__title {
+    font-weight: bold;
+    color: white;
+    font-size: 20px; }
+  .NewID__email {
+    padding-bottom: 10px;
+    font-size: 14px;
+    color: #c8ced6;
+    font-style: italic; }
+  .NewID__formTitle {
+    font-size: 16px;
+    color: white;
+    padding-top: 10px; }
+  .NewID__name {
+    padding-top: 5px; }
+  .NewID__input-group-addon {
+    color: white;
+    background-color: #406C86;
+    border: #406C86; }
+  .NewID__form-control {
+    background-color: #406C86;
+    border: #406C86;
+    color: white; }
+  .NewID__phone {
+    padding-top: 5px; }
+  .NewID img {
+    width: 22px;
+    height: 22px; }
+  .NewID__office {
+    padding-top: 5px; }
+    .NewID__office .selectIcon {
+      float: right;
+      margin-top: 9px; }
+  .NewID__btn-group, .NewID__btn {
+    width: 100%; }
+  .NewID__dropdown-menu {
+    width: 100%;
+    background-color: #204d74; }
+  .NewID__dropdown-menu > li > a {
+    background-color: #204d74;
+    color: white; }
+  .NewID__divider {
+    background-color: #337ab7; }
+  .NewID .caret {
+    margin-left: 10px; }
+  .NewID__text {
+    font-size: 16px;
+    font-weight: lighter;
+    text-align: left; }
+  .NewID__responsibilities {
+    color: white; }
+  .NewID__checkboxOptionsTitle {
+    padding-top: 30px;
+    padding-bottom: 0px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold; }
+  .NewID__checkboxOptions {
+    /*** basic styles ***/
+    padding-top: 20px;
+    align-items: center;
+    /*** custom checkboxes ***/
+    /* to hide the checkbox itself */
+    /* unchecked icon */
+    /* space between checkbox and label */
+    /* checked icon */
+    /* allow space for check mark */ }
+    .NewID__checkboxOptions body {
+      margin: 20px; }
+    .NewID__checkboxOptions h1 {
+      font-size: 14px; }
+    .NewID__checkboxOptions label {
+      font-weight: lighter;
+      font-size: 14px;
+      padding-left: 20px;
+      padding-top: 10px; }
+    .NewID__checkboxOptions div {
+      width: 175px;
+      margin-left: -15; }
+    .NewID__checkboxOptions input[type=checkbox] {
+      display: none; }
+    .NewID__checkboxOptions input[type=checkbox] + label:before {
+      font-family: FontAwesome;
+      display: inline-block; }
+    .NewID__checkboxOptions input[type=checkbox] + label:before {
+      content: "\f096"; }
+    .NewID__checkboxOptions input[type=checkbox] + label:before {
+      letter-spacing: 10px; }
+    .NewID__checkboxOptions input[type=checkbox]:checked + label:before {
+      content: "\f046"; }
+    .NewID__checkboxOptions input[type=checkbox]:checked + label:before {
+      letter-spacing: 5px;
+      color: #4bd268; }
+  .NewID__ConfirmButton {
+    padding-top: 20px; }
+    .NewID__ConfirmButton .btn {
+      width: 100%;
+      font-size: 18px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .NewID__exitLink {
+    text-align: center;
+    padding-top: 20px; }
+    .NewID__exitLink a {
+      font-size: 16px;
+      color: white;
+      font-weight: lighter;
+      text-decoration: underline; }
+    .NewID__exitLink a:active {
+      color: #89c4f4; }
+
+.IntroNewID {
+  background: #003B5E;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
+  .IntroNewID__presentation {
+    text-align: center; }
+  .IntroNewID__presentationTitle {
+    font-weight: lighter;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px; }
+    @media (max-width: 350px) {
+      .IntroNewID__presentationTitle {
+        font-size: 18px;
+        padding-left: 0;
+        padding-bottom: 20px;
+        padding-right: 0; } }
+  .IntroNewID__presentationPhoto {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    width: 150px;
+    height: 150px; }
+  .IntroNewID__presentationName {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; }
+    @media (max-width: 350px) {
+      .IntroNewID__presentationName {
+        font-size: 16px; } }
+  .IntroNewID__presentationText {
+    font-size: 18px;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: 200; }
+    @media (max-width: 350px) {
+      .IntroNewID__presentationText {
+        font-size: 14px;
+        padding-top: 10px;
+        padding-bottom: 20px; } }
+  .IntroNewID__presentationEnterButton {
+    padding-top: 0px; }
+    .IntroNewID__presentationEnterButton .btn {
+      font-size: 18px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .IntroNewID__presentationExitLink {
+    padding-top: 20px; }
+    .IntroNewID__presentationExitLink a {
+      font-size: 16px;
+      color: white;
+      font-weight: lighter;
+      text-decoration: underline; }
+    .IntroNewID__presentationExitLink a:active {
+      color: #89c4f4; }
+
+.NewIDConfirm {
+  background: #003B5E;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-right: 15px;
+  padding-left: 15px;
+  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif; }
+  .NewIDConfirm__confirm {
+    text-align: center; }
+  .NewIDConfirm__Title {
+    font-size: 24px;
+    color: white;
+    padding-top: 0;
+    padding-bottom: 40px;
+    padding-right: 30px;
+    padding-left: 30px; }
+    @media (max-width: 350px) {
+      .NewIDConfirm__Title {
+        font-size: 20px; } }
+    @media (min-width: 350px) {
+      .NewIDConfirm__Title {
+        padding-right: 50px;
+        padding-left: 50px; } }
+  .NewIDConfirm__Photo {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    width: 150px;
+    height: 150px; }
+  .NewIDConfirm__Name {
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; }
+  .NewIDConfirm__Text {
+    text-align: left;
+    font-size: 16px;
+    color: white;
+    padding-left: 85px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 200; }
+    @media (max-width: 350px) {
+      .NewIDConfirm__Text {
+        font-size: 14px;
+        padding-left: 40px; } }
+    @media (min-width: 360px) and (max-width: 390px) {
+      .NewIDConfirm__Text {
+        font-size: 14px;
+        padding-left: 60px; } }
+    .NewIDConfirm__Text li {
+      list-style-type: none;
+      padding: 5px; }
+  .NewIDConfirm__EnterButton {
+    padding-top: 20px;
+    text-align: center; }
+    @media (max-width: 350px) {
+      .NewIDConfirm__EnterButton {
+        padding-top: 0; } }
+    .NewIDConfirm__EnterButton .btn {
+      font-size: 18px;
+      font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+  .NewIDConfirm__ExitLink {
+    padding-top: 20px; }
+    .NewIDConfirm__ExitLink a {
+      font-size: 16px;
+      color: white;
+      font-weight: lighter;
+      text-decoration: underline; }
+    .NewIDConfirm__ExitLink a:active {
+      color: #89c4f4; }
+
+.container {
+  overflow: scroll; }
+  @media (min-width: 750px) {
+    .container {
+      position: relative;
+      top: 50%;
+      transform: translateY(-50%); } }
+  @media (min-width: 375px) and (max-width: 700px) {
+    .container {
+      padding-top: 15%; } }
+  @media (min-width: 600px) {
+    .container {
+      width: 414px;
+      height: auto;
+      border-radius: 10px;
+      align-items: center; } }
