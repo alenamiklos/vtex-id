@@ -1,0 +1,26 @@
+{
+  "name": "vtex-css-utils",
+  "version": "2.0.2",
+  "description": "A small package with css utility classes shared by VTEX front-end developers",
+  "main": "sass/css-utils.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtex-apps/css-utils.git"
+  },
+  "keywords": [
+    "css",
+    "less",
+    "sass",
+    "utils",
+    "vtex"
+  ],
+  "author": "Daniel Fosco <danielfosco@gmail.com> (http://danielfos.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vtex-apps/css-utils/issues"
+  },
+  "homepage": "https://github.com/vtex-apps/css-utils#readme"
+}
