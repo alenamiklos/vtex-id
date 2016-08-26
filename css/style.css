@@ -32,11 +32,24 @@
   .btn-default:active:hover{
     color:white;
   } */ }
+  .NewID input[placeholder]::-webkit-input-placeholder {
+    color: #e8eff4;
+    font-size: 14px; }
+  .NewID input[placeholder]:-moz-placeholder {
+    color: #e8eff4;
+    font-size: 14px; }
+  .NewID input[placeholder]::-moz-placeholder {
+    color: #e8eff4;
+    font-size: 14px; }
+  .NewID input[placeholder]:-ms-input-placeholder {
+    color: #e8eff4;
+    font-size: 14px; }
   .NewID__title {
     font-weight: bold;
     color: white;
     font-size: 20px; }
   .NewID__email {
+    margin-top: 5px;
     padding-bottom: 10px;
     font-size: 14px;
     color: #c8ced6;
@@ -44,9 +57,9 @@
   .NewID__formTitle {
     font-size: 16px;
     color: white;
-    padding-top: 10px; }
+    padding-top: 15px; }
   .NewID__name {
-    padding-top: 5px; }
+    padding-top: 10px; }
   .NewID__input-group-addon {
     color: white;
     background-color: #406C86;
@@ -56,12 +69,12 @@
     border: #406C86;
     color: white; }
   .NewID__phone {
-    padding-top: 5px; }
+    padding-top: 10px; }
   .NewID img {
     width: 22px;
     height: 22px; }
   .NewID__office {
-    padding-top: 5px; }
+    padding-top: 10px; }
     .NewID__office .selectIcon {
       float: right;
       margin-top: 9px; }
@@ -104,7 +117,6 @@
     .NewID__checkboxOptions h1 {
       font-size: 14px; }
     .NewID__checkboxOptions label {
-      font-weight: lighter;
       font-size: 14px;
       padding-left: 20px;
       padding-top: 10px; }
@@ -119,7 +131,7 @@
     .NewID__checkboxOptions input[type=checkbox] + label:before {
       content: "\f096"; }
     .NewID__checkboxOptions input[type=checkbox] + label:before {
-      letter-spacing: 10px; }
+      letter-spacing: 7px; }
     .NewID__checkboxOptions input[type=checkbox]:checked + label:before {
       content: "\f046"; }
     .NewID__checkboxOptions input[type=checkbox]:checked + label:before {
@@ -247,33 +259,26 @@
     display: block;
     margin: auto;
     width: 50%;
-    width: 150px;
-    height: 150px; }
+    width: 115px;
+    height: 115px; }
   .NewIDConfirm__Name {
     padding-top: 20px;
     font-size: 18px;
     font-weight: bold;
     color: white; }
   .NewIDConfirm__Text {
-    text-align: left;
-    font-size: 16px;
     color: white;
-    padding-left: 85px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    font-weight: 200; }
-    @media (max-width: 350px) {
-      .NewIDConfirm__Text {
-        font-size: 14px;
-        padding-left: 40px; } }
-    @media (min-width: 360px) and (max-width: 390px) {
-      .NewIDConfirm__Text {
-        font-size: 14px;
-        padding-left: 60px; } }
-    .NewIDConfirm__Text li {
-      list-style-type: none;
-      padding: 5px; }
+    background: #014673;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px; }
+  .NewIDConfirm__confirmName {
+    font-size: 12px;
+    text-align: left; }
+  .NewIDConfirm__confirmPhone {
+    text-align: left;
+    font-size: 12px; }
   .NewIDConfirm__EnterButton {
     padding-top: 20px;
     text-align: center; }
