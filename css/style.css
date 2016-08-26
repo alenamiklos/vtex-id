@@ -151,7 +151,7 @@
     text-align: center;
     padding-top: 20px; }
     .NewID__exitLink a {
-      font-size: 16px;
+      font-size: 18px;
       color: white;
       font-weight: lighter;
       text-decoration: underline; }
@@ -213,7 +213,7 @@
   .IntroNewID__presentationEnterButton {
     padding-top: 0px; }
     .IntroNewID__presentationEnterButton .btn {
-      font-size: 18px;
+      font-size: 20px;
       font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
       padding-left: 15px;
       padding-right: 15px;
@@ -222,7 +222,7 @@
   .IntroNewID__presentationExitLink {
     padding-top: 20px; }
     .IntroNewID__presentationExitLink a {
-      font-size: 16px;
+      font-size: 18px;
       color: white;
       font-weight: lighter;
       text-decoration: underline; }
@@ -286,7 +286,7 @@
       .NewIDConfirm__EnterButton {
         padding-top: 0; } }
     .NewIDConfirm__EnterButton .btn {
-      font-size: 18px;
+      font-size: 20px;
       font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
       padding-left: 15px;
       padding-right: 15px;
@@ -295,7 +295,7 @@
   .NewIDConfirm__ExitLink {
     padding-top: 20px; }
     .NewIDConfirm__ExitLink a {
-      font-size: 16px;
+      font-size: 18px;
       color: white;
       font-weight: lighter;
       text-decoration: underline; }
