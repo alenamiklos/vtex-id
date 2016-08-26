@@ -9,6 +9,39 @@
 
   font-family: $display-font;
 
+  // create placeholder mixin
+@mixin placeholder($color, $size:"") {
+  &::-webkit-input-placeholder {
+    color: $color;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &:-moz-placeholder {
+    color: $color;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &::-moz-placeholder {
+    color: $color;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+    @if $size != "" {
+      font-size: $size;
+    }
+  }
+}
+
+// use placeholder mixin (size param is optional)
+input[placeholder] {
+  @include placeholder(#e8eff4, 14px);
+}
+
   &__title {
 
     font-weight: bold;
@@ -17,6 +50,7 @@
   }
 
   &__email{
+    margin-top: 5px;
     padding-bottom: 10px;
     font-size: 14px;
     color: #c8ced6;
@@ -27,11 +61,11 @@
   &__formTitle{
     font-size: 16px;
     color: white;
-    padding-top: 10px;
+    padding-top: 15px;
   }
 
   &__name {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   &__input-group-addon {
@@ -47,7 +81,7 @@
   }
 
   &__phone {
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   img{
@@ -61,7 +95,7 @@
       margin-top: 9px;
 
     }
-    padding-top: 5px;
+    padding-top: 10px;
   }
 
   &__btn-group, &__btn {
@@ -129,7 +163,6 @@
 
     label {
 
-      font-weight: lighter;
       font-size: 14px;
       padding-left: 20px;
       padding-top: 10px;
@@ -149,7 +182,7 @@
     }
 
     input[type=checkbox] + label:before { content: "\f096"; } /* unchecked icon */
-    input[type=checkbox] + label:before { letter-spacing: 10px; } /* space between checkbox and label */
+    input[type=checkbox] + label:before { letter-spacing: 7px; } /* space between checkbox and label */
 
     input[type=checkbox]:checked + label:before { content: "\f046"; } /* checked icon */
     input[type=checkbox]:checked + label:before { letter-spacing: 5px; color: #4bd268;} /* allow space for check mark */

@@ -38,8 +38,8 @@
     display: block;
     margin: auto;
     width: 50%;
-    width: 150px;
-    height: 150px;
+    width: 115px;
+    height: 115px;
 
   }
 
@@ -52,47 +52,27 @@
   }
 
   &__Text {
-
-    @media (max-width: 350px) {
-      font-size: 14px;
-      padding-left: 40px;
-    }
-
-    @media (min-width: 360px) and (max-width: 390px) {
-      font-size: 14px;
-      padding-left: 60px;
-    }
-
-    text-align: left;
-    font-size: 16px;
     color: white;
-    padding-left: 85px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    font-weight: 200;
-
-    li {
-      list-style-type: none;
-      padding:5px;
-    }
-  }
-
-  &__nameText{
+    background: #014673;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 10px;
 
   }
 
-  &__phoneText{
+  &__confirmName{
+    font-size: 12px;
+    text-align: left;
 
   }
 
-  &__officeText{
+  &__confirmPhone{
+    text-align: left;
+    font-size: 12px;
 
   }
 
-  &__responsibilitiesText{
-
-  }
 
   &__EnterButton {
 
