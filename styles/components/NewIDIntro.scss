@@ -53,8 +53,8 @@
 
   &__presentationText {
     @media (max-width: 350px) {
-    font-size: 14px;
-    padding-top: 10px;
+    font-size: 16px;
+    padding-top: 20px;
     padding-bottom: 20px;
     }
 
@@ -64,11 +64,11 @@
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    font-weight: 200;
+    font-weight: 300;
   }
 
   &__presentationEnterButton {
-    padding-top: 0px;
+    padding-top: 20px;
 
     .btn {
       font-size: 20px;

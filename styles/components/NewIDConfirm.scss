@@ -32,45 +32,55 @@
 
   }
 
-  &__Photo {
-
-    color: white;
-    display: block;
-    margin: auto;
-    width: 50%;
-    width: 115px;
-    height: 115px;
-
-  }
-
-  &__Name {
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white;
-
-  }
-
-  &__Text {
-    color: white;
-    background: #014673;
+  &__info {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    background-color: #014673;
     border-radius: 10px;
-    width: auto;
-    height: auto;
-    padding: 10px;
+    border: solid 1px #257197;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: lighter;
+
+    @media (max-width: 350px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+    @media (min-width: 350px) {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+
+
+    b{
+      font-weight: normal;
+    }
 
   }
 
-  &__confirmName{
-    font-size: 12px;
+  &__infoName {
     text-align: left;
-
+    margin-bottom: 10px;
   }
 
-  &__confirmPhone{
+  &__infoPhone {
     text-align: left;
-    font-size: 12px;
+    margin-bottom: 10px;
+  }
 
+  &__infoOffice {
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  &__infoResponsibilities {
+    text-align: left;
   }
 
 
@@ -79,8 +89,6 @@
     @media (max-width: 350px) {
       padding-top: 0;
     }
-
-    padding-top: 20px;
     text-align: center;
 
     .btn {
@@ -90,25 +98,7 @@
       padding-right: 15px;
       padding-top: 10px;
       padding-bottom: 10px;
-
+      margin-top: 20px;
     }
-  }
-
-  &__ExitLink {
-    padding-top: 20px;
-
-    a{
-      font-size: 18px;
-      color: white;
-      font-weight: lighter;
-      text-decoration: underline;
-
-    }
-
-
-    a:active {
-      color: #89c4f4;
-    }
-
   }
 }

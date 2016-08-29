@@ -204,14 +204,14 @@
     padding-bottom: 40px;
     padding-left: 40px;
     padding-right: 40px;
-    font-weight: 200; }
+    font-weight: 300; }
     @media (max-width: 350px) {
       .IntroNewID__presentationText {
-        font-size: 14px;
-        padding-top: 10px;
+        font-size: 16px;
+        padding-top: 20px;
         padding-bottom: 20px; } }
   .IntroNewID__presentationEnterButton {
-    padding-top: 0px; }
+    padding-top: 20px; }
     .IntroNewID__presentationEnterButton .btn {
       font-size: 20px;
       font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
@@ -254,33 +254,41 @@
       .NewIDConfirm__Title {
         padding-right: 50px;
         padding-left: 50px; } }
-  .NewIDConfirm__Photo {
-    color: white;
-    display: block;
-    margin: auto;
-    width: 50%;
-    width: 115px;
-    height: 115px; }
-  .NewIDConfirm__Name {
-    padding-top: 20px;
-    font-size: 18px;
-    font-weight: bold;
-    color: white; }
-  .NewIDConfirm__Text {
-    color: white;
-    background: #014673;
+  .NewIDConfirm__info {
+    font-size: 14px;
+    text-align: center;
+    margin: 10px;
+    background-color: #014673;
     border-radius: 10px;
-    width: auto;
-    height: auto;
-    padding: 10px; }
-  .NewIDConfirm__confirmName {
-    font-size: 12px;
-    text-align: left; }
-  .NewIDConfirm__confirmPhone {
-    text-align: left;
-    font-size: 12px; }
-  .NewIDConfirm__EnterButton {
+    border: solid 1px #257197;
+    padding-left: 40px;
+    padding-right: 40px;
     padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: lighter; }
+    @media (max-width: 350px) {
+      .NewIDConfirm__info {
+        padding-left: 30px;
+        padding-right: 30px; } }
+    @media (min-width: 350px) {
+      .NewIDConfirm__info {
+        margin-left: 20px;
+        margin-right: 20px; } }
+    .NewIDConfirm__info b {
+      font-weight: normal; }
+  .NewIDConfirm__infoName {
+    text-align: left;
+    margin-bottom: 10px; }
+  .NewIDConfirm__infoPhone {
+    text-align: left;
+    margin-bottom: 10px; }
+  .NewIDConfirm__infoOffice {
+    text-align: left;
+    margin-bottom: 10px; }
+  .NewIDConfirm__infoResponsibilities {
+    text-align: left; }
+  .NewIDConfirm__EnterButton {
     text-align: center; }
     @media (max-width: 350px) {
       .NewIDConfirm__EnterButton {
@@ -291,16 +299,8 @@
       padding-left: 15px;
       padding-right: 15px;
       padding-top: 10px;
-      padding-bottom: 10px; }
-  .NewIDConfirm__ExitLink {
-    padding-top: 20px; }
-    .NewIDConfirm__ExitLink a {
-      font-size: 18px;
-      color: white;
-      font-weight: lighter;
-      text-decoration: underline; }
-    .NewIDConfirm__ExitLink a:active {
-      color: #89c4f4; }
+      padding-bottom: 10px;
+      margin-top: 20px; }
 
 .container {
   overflow: scroll; }
