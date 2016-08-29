@@ -180,7 +180,6 @@
       .IntroNewID__presentationTitle {
         font-size: 18px;
         padding-left: 0;
-        padding-bottom: 20px;
         padding-right: 0; } }
   .IntroNewID__presentationPhoto {
     color: white;
@@ -210,15 +209,13 @@
         font-size: 16px;
         padding-top: 20px;
         padding-bottom: 20px; } }
-  .IntroNewID__presentationEnterButton {
-    padding-top: 20px; }
-    .IntroNewID__presentationEnterButton .btn {
-      font-size: 20px;
-      font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-      padding-left: 15px;
-      padding-right: 15px;
-      padding-top: 10px;
-      padding-bottom: 10px; }
+  .IntroNewID__presentationEnterButton .btn {
+    font-size: 20px;
+    font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   .IntroNewID__presentationExitLink {
     padding-top: 20px; }
     .IntroNewID__presentationExitLink a {
@@ -320,7 +317,7 @@
       padding-right: 15px;
       padding-top: 10px;
       padding-bottom: 10px;
-      margin-top: 20px; }
+      margin-top: 40px; }
 
 .container {
   overflow: scroll; }
