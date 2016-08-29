@@ -241,10 +241,11 @@
   .NewIDConfirm__confirm {
     text-align: center; }
   .NewIDConfirm__Title {
+    margin-bottom: 40px;
     font-size: 24px;
     color: white;
     padding-top: 0;
-    padding-bottom: 40px;
+    padding-bottom: 0;
     padding-right: 30px;
     padding-left: 30px; }
     @media (max-width: 350px) {
@@ -254,10 +255,19 @@
       .NewIDConfirm__Title {
         padding-right: 50px;
         padding-left: 50px; } }
+  .NewIDConfirm__photo {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    width: 150px;
+    height: 150px; }
   .NewIDConfirm__info {
+    margin-top: 40px;
     font-size: 14px;
     text-align: center;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #014673;
     border-radius: 10px;
     border: solid 1px #257197;
@@ -277,6 +287,16 @@
         margin-right: 20px; } }
     .NewIDConfirm__info b {
       font-weight: normal; }
+  .NewIDConfirm__infoTitle {
+    font-weight: lighter;
+    margin-left: 13px;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    font-size: 18px; }
+    @media (min-width: 350px) {
+      .NewIDConfirm__infoTitle {
+        margin-left: 23px; } }
   .NewIDConfirm__infoName {
     text-align: left;
     margin-bottom: 10px; }

@@ -14,6 +14,7 @@
   }
 
   &__Title {
+    margin-bottom: 40px;
     @media (max-width: 350px) {
       font-size:20px;
     }
@@ -26,16 +27,28 @@
     font-size: 24px;
     color: white;
     padding-top: 0;
-    padding-bottom: 40px;
+    padding-bottom: 0;
     padding-right: 30px;
     padding-left: 30px;
 
   }
 
+  &__photo {
+    color: white;
+    display: block;
+    margin: auto;
+    width: 50%;
+    width: 150px;
+    height: 150px;
+
+  }
+
   &__info {
+    margin-top: 40px;
     font-size: 14px;
     text-align: center;
-    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
     background-color: #014673;
     border-radius: 10px;
     border: solid 1px #257197;
@@ -62,6 +75,19 @@
       font-weight: normal;
     }
 
+  }
+
+  &__infoTitle{
+    @media (min-width: 350px) {
+      margin-left: 23px;
+    }
+
+    font-weight: lighter;
+    margin-left: 13px;
+    margin-top: 20px;
+    color: white;
+    text-align: left;
+    font-size: 18px;
   }
 
   &__infoName {
