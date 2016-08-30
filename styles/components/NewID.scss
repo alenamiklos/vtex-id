@@ -2,10 +2,10 @@
   background: #003B5E;
   width: 100%;
   height: 100%;
-  padding-top:40px;
-  padding-bottom:40px;
-  padding-right:15px;
-  padding-left:15px;
+  padding-top:10px;
+  padding-bottom:0;
+  padding-right:0;
+  padding-left:0;
 
   font-family: $display-font;
 
@@ -41,6 +41,13 @@
 input[placeholder] {
   @include placeholder(#e8eff4, 14px);
 }
+
+  &__margin{
+    margin-top:20px;
+    margin-bottom:40px;
+    margin-right:15px;
+    margin-left:15px;
+  }
 
   &__title {
 
